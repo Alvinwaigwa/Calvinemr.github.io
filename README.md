@@ -1,32 +1,23 @@
-# Calvin EMR — Project Website (GitHub Pages)
+# Calvin EMR Project Website
 
-This repository contains a simple project website for the Calvin EMR student project. It's designed to be hosted on GitHub Pages and contains the required sections for the course: Vision, Team, Code, Report, Presentation, and Research materials.
+This repository hosts the project website for Calvin EMR, an Electronic Medical Record (EMR) simulator developed for nursing education at Calvin University.
 
-How to publish on GitHub Pages
+## About the Project
 
-1. Create a GitHub repository (or use your existing project repo).
-2. Copy the `docs/` folder from this workspace into the repository root.
-3. Commit and push to GitHub.
-4. In the repository settings on GitHub, enable Pages and set the source to `main` branch and folder `docs/` (or `master/docs` depending on your default branch).
+Calvin EMR is a multi-year student project between the Computer Science and Nursing departments. It provides a realistic training environment for nursing students to practice EMR workflows without risking actual patients.
 
-Example commands (run from the repository root):
+## Website Contents
 
-```bash
-# initialize a repo (if needed)
-git init
-git add .
-git commit -m "Add project website in docs/"
-# create remote and push (replace URL)
-git remote add origin https://github.com/your-org/your-repo.git
-git branch -M main
-git push -u origin main
-```
+- **Vision**: Project goals and ethical considerations
+- **Team**: Information about the development team
+- **Code**: Link to the source code repository
+- **Report**: Detailed project documentation
+- **Presentation**: Project presentation materials
 
-Updating the site
+## Hosting
 
-- To change the report, edit `docs/report.html`.
-- To update the vision text, edit `docs/vision.html`.
-- Replace the placeholder repository URL in `docs/code.html` with the actual GitHub repo URL.
-- Add slides or PDFs to `docs/assets/` and link them from `docs/presentation.html` or `docs/research.html`.
+This site is hosted on GitHub Pages. The website files are located in the `docs/` directory.
 
-Provide repository URL and any images/PDFs you want included and I will add them to the site.
+## Repository
+
+Source code: https://github.com/CS396-398-EMR/calvin-emr
