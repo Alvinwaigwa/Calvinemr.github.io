@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Report — Calvin EMR</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Calvin EMR</a>
+      <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false"
+        aria-label="Toggle navigation">☰</button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="vision.html">Vision</a></li>
+          <li><a class="nav-link" href="team.html">Team</a></li>
+          <li><a class="nav-link" href="code.html">Code</a></li>
+          <li><a class="nav-link" href="report.html">Report</a></li>
+          <li><a class="nav-link" href="presentation.html">Presentation</a></li>
+          <li><a class="nav-link" href="research.html">Research</a></li>
+          <li><a class="nav-link dept" href="https://calvin.edu/academics/departments-programs/computer-science"
+              target="_blank" rel="noopener">Department of Computer Science</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article>
+      <h2>Background</h2>
+      <p>This project is a multi-year initiative between Calvin's Computer Science and Nursing departments to build an
+        Electronic Medical Record (EMR) simulator for nursing students. The project evolved through successive teams;
+        the Class of 2022 built the foundation, Class of 2024 improved usability and medication dispensing integration,
+        and Class of 2025 expanded clinical assessments and PDF generation.</p>
+
+      <h2>Recent Work</h2>
+      <p>Our recent work includes getting development environments working and improving the Pediatric Assessment
+        module. We forked and cloned the repository, ran the application locally, and implemented improvements to the
+        pediatric form such as reordering fields and modifying age input logic based on patient type. Concurrently, we
+        expanded the automated test suite to cover authentication, patient creation workflows, and patient list
+        management.</p>
+
+      <h3>Product Success Criteria</h3>
+      <ul>
+        <li>New features do not break existing functionality.</li>
+        <li>Regular interaction with the nursing department to ensure feature alignment.</li>
+        <li>A growing suite of tests to prevent regressions.</li>
+      </ul>
+
+      <h3>Development Process</h3>
+      <p>Using GitHub Flow: fork, feature branches and pull requests to a staging branch, weekly meetings with advisors,
+        and each member contributing ~6 hours/week.</p>
+
+      <h3>Updates Since Milestone 2</h3>
+      <p>Added more assessment tests, features for adding a single student, sharing patients with administrators, and
+        changes based on professor feedback.</p>
+
+      <h3>Individual Contributions</h3>
+      <ul>
+        <li><strong>Peter</strong>: Completed tests for the assessment form and implemented assessment changes.</li>
+        <li><strong>Alvin</strong>: Added patient sharing and single-student addition features.</li>
+      </ul>
+
+      <h3>Results</h3>
+      <p>Demo video preview (YouTube): <a href="https://www.youtube.com/watch?v=MDsdhBLv-fk" target="_blank"
+          rel="noopener">Watch the preview</a>.</p>
+
+    </article>
+  </main>
+
+  <footer>
+    <div class="container">© Calvin EMR</div>
+  </footer>
+  <script src="assets/nav.js"></script>
+</body>
+
+</html>
